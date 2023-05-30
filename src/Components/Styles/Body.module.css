@@ -1,0 +1,19 @@
+.MainBody{
+    border: 2px solid red;
+}
+.LoginLeftSection{
+    border: 2px solid aqua;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2rem;
+    
+}
+.leftSecHeading{
+    font-size: 3rem;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(90deg,#f64942,#ef90a4,#5b95bf);
+
+}
