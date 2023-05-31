@@ -1,7 +1,7 @@
 import React,{useState} from "react";
-import styles from './Styles/Header.module.css'
+import styles from './Styles/LoginHeader.module.css'
 
-function Header (){
+function LoginHeader (){
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const toggleMenu = () => {
       setIsMenuOpen(!isMenuOpen);
@@ -69,4 +69,4 @@ function Header (){
         </>
     )
 }
-export default Header;
+export default LoginHeader;

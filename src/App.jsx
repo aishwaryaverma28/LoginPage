@@ -1,14 +1,16 @@
 import React from 'react'
-import Body from './Components/Body'
-import Header from './Components/Header'
+import LoginBody from './Components/LoginBody'
+import LoginHeader from './Components/LoginHeader'
+import LoginFooter from './Components/LoginFooter'
 
 
 function App() {
 
   return (
     <div className="dashboard">
-    <Header/>
-    <Body/>
+    <LoginHeader/>
+    <LoginBody/>
+    <LoginFooter/>
     </div>
   )
 }

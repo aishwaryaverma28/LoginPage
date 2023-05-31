@@ -26,6 +26,10 @@
     margin: 0.3rem 0.3rem;
     color: #fff;
 }
+.socialMedia:hover{
+    background-color: orange;
+    border: orange;
+}
 .logoImg{
     width: 4rem;
 }
