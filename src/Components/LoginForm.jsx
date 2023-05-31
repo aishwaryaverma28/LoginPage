@@ -17,18 +17,18 @@ const LoginForm = () => {
       <p className={styles.formTxt}>Complete the form to start your free trial. Our team will be in touch to help you make the most of your trial.</p>
       <form>
         
-        <input type='text' placeholder='First Name*' className={styles.loginFormInput}/>
-        <input type='text' placeholder='Last Name*' className={styles.loginFormInput}/>
+        <input type='text' placeholder='First Name*' className={styles.loginFormInput} required/>
+        <input type='text' placeholder='Last Name*' className={styles.loginFormInput} required/>
         <input type='email' placeholder='Work Email*' required className={styles.loginFormInput}/>
-        <input type='number' placeholder='Phone Number*'  className={styles.loginFormInput}/>
-        <select name='Job Title' className={styles.loginFormInput}>
+        <input type='number' placeholder='Phone Number*'  className={styles.loginFormInput} required/>
+        <select name='Job Title' className={styles.loginFormInput} required>
           <option>Job Title</option>
           <option>Sales Manager</option>
           <option>Marketing/PR Managaer</option>
           <option>Customer Service Manager</option>
           <option>CxO/ General Manager</option>
         </select>
-        <input type='text' placeholder='Company' className={styles.loginFormInput}/>
+        <input type='text' placeholder='Company' className={styles.loginFormInput} required/>
         <select name='Employee' className={styles.loginFormInput}>
           <option>Employee</option>
           <option>1 - 15 Employees</option>
@@ -36,14 +36,14 @@ const LoginForm = () => {
           <option>51 - 200 Employees</option>
           <option>201 - 500 Employees</option>
         </select>
-        <select name='Country/Region' className={styles.loginFormInput}>
+        <select name='Country/Region' className={styles.loginFormInput} required>
           <option>Country/Region</option>
           <option>India</option>
           <option>USA</option>
           <option>UK</option>
           <option>Australia</option>
         </select>
-        <label className={styles.loginFormCheckbox}>
+        <label className={styles.loginFormCheckbox} required>
           <input type="checkbox" name="Agreement" value="Agreement" />
           I agree to the <span className={styles.expertNum}> Main service Agreement</span>
         </label>
